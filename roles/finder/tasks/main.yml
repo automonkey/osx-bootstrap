@@ -1,0 +1,6 @@
+---
+
+- name: 'Finder: Show filename extensions'
+  osx_defaults: domain=.GlobalPreferences key=AppleShowAllExtensions type=boolean value=true state=present
+  notify: restart finder
+

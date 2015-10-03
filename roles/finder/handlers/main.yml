@@ -1,0 +1,6 @@
+---
+
+- name: restart finder
+  command: killall Finder
+  ignore_errors: yes
+
